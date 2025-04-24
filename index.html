@@ -54,6 +54,8 @@
       overflow: hidden;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.2s;
+      width: 100%;             /* ocupa todo el espacio disponible */
+      max-width: 220px;        /* ancho máximo para verse bien en desktop */
     }
 
     .app-button:hover {
@@ -69,6 +71,9 @@
     .app-button img {
       width: 100%;
       display: block;
+      height: auto;
+      max-height: 150px;       /* altura máxima para que no crezca demasiado */
+      object-fit: cover;
     }
 
     .app-button span {
@@ -109,49 +114,38 @@
         <span>Grupo 2</span>
       </a>
     </div>
-   
+
     <div class="app-button">
       <a href="https://www.facebook.com" target="_blank">
         <img src="icons/faceIcon.png" alt="App 3">
         <span>Grupo 3</span>
       </a>
     </div>
-
     <div class="app-button">
       <a href="https://www.facebook.com" target="_blank">
         <img src="icons/faceIcon.png" alt="App 4">
         <span>Grupo 4</span>
       </a>
     </div>
-
     <div class="app-button">
       <a href="https://www.facebook.com" target="_blank">
         <img src="icons/faceIcon.png" alt="App 5">
         <span>Grupo 5</span>
       </a>
     </div>
-        -->
-
+      -->
     <div class="app-button">
       <a href="https://www.facebook.com" target="_blank">
         <img src="icons/faceIcon.png" alt="App 6">
-        <span>Grupo 6</span>
+        <span>Ejemplo</span>
       </a>
     </div>
-
   </div>
 
-    <!--
   <div class="creators-text">
-    Para creadores: aquí puede aparecer tu grupo de Facebook, tu página de Facebook o Instagram.  
-    Si apoyas la app compartiendo en tus redes sociales, escríbenos a:  
-    <a href="mailto:sam.dev.utility.apps@gmail.com">sam.dev.utility.apps@gmail.com</a>
-  </div>
-    -->
-      <div class="creators-text">
-        ¿Eres creador?
-        ¡Este espacio es para ti! Aquí puedes mostrar tu grupo o página de Facebook e Instagram.
-        Si quieres apoyar la aplicación compartiéndola en tus redes, escríbenos a: 
+    ¿Eres creador?  
+    ¡Este espacio es para ti! Aquí puedes mostrar tu grupo o página de Facebook e Instagram.  
+    Si quieres apoyar la aplicación compartiéndola en tus redes, escríbenos a:  
     <a href="mailto:sam.dev.utility.apps@gmail.com">sam.dev.utility.apps@gmail.com</a>
   </div>
 </body>
